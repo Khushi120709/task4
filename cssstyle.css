@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-photo/clouds-blue-sky_196038-208.jpg?w=996");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+}
+
+.container-fluid {
+    width: 400px;
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.inputs h1 {
+    text-align: center;
+    color: #0915b9;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+
+
+}
+
+.inputs input[type="text"] {
+    height: 4rem;
+    width: 20rem;
+    background: #CCDDFF;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right: 4px;
+
+}
+
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 6rem;
+    background: #0a67ca;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.display {
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+
+}
+
+.wrapper {
+    margin: 0 9rem;
+    background: transparent;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2 {
+    padding: 5px 0;
+    text-align: center;
+    background: transparent;
+    color: #003300;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+.wrapper p {
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #E6004C;
+    font-size: 23px;
+}
+
+.wrapper h2 span {
+    font-size: 26px;
+    color: #003300;
+}
+
+.wrapper p span {
+    color: #000099;
+    font-size: 25px;
+}
+
+.hd {
+    color: #000099;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+
+}
